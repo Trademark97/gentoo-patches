@@ -7,7 +7,7 @@ index 55e83ec..40af30a 100644
  #define _PyObject_GC_Del PyObject_GC_Del
  
 +/*
-+ * Former over-aligned denition of PyGC_Head, used to compute the size of the
++ * Former over-aligned definition of PyGC_Head, used to compute the size of the
 + * padding for the new version below.
 +*/
 +union _gc_head;
